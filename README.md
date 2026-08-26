@@ -73,13 +73,9 @@ print(make_username("Ana Maria", "De Leon"))
 
 # c. Bookend Swap Problem
 
-Create a function named `swap_bookends()` that accepts a list containing aat least two elements
+Create a function named `swap_bookends()` that accepts a list containing at least two elements. The function exchanges he positions of the first and last elements  while preserving the original order of all elements while preserving the original order of all elements between them. The original input list must not be modified. 
 
-
-
-
-
-
+The primary Python 
 
 
 
