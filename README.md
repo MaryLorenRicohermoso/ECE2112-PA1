@@ -12,12 +12,14 @@ The following string indexing and slicing techniques were used in this problem:
 • `text[0]` - accesses the first character of the string. Since Python uses zero-based indexing, index "0" represents the first character. 
 
 Example: 
+    
       `text = "python" 
        text[0] --> "p"`
 
 • `text[1: ]` - utilzing slicing to obtain all characters starting from the second character and continuing to the end of the string.
 
 Example:
+     
       `text = "python" 
        text[1 : ] --> "ython"` 
 
@@ -39,20 +41,21 @@ The following string methods and string connecting them weree uutilized in this 
 •`.lower()` - A string method that converts aall uppercase letters in a string to lowercase.
 
 Example:
-  `first_name = "Ana Maria"
-  first_name.lower() ---> "ana maria"`
+        `first_name = "Ana Maria"
+        first_name.lower() ---> "ana maria"`
 
-  `last_name = "De Leon"
-  last_name.lower() ---> "de leon"`
+        `last_name = "De Leon"
+        last_name.lower() ---> "de leon"`
+
 
 •`.replace(" ", "")` - A string method that replaces every space with an empty string. This effectively removes all spaces from the string.
 
 Example:
-  `first_name = "Ana Maria"
-  first_name.replace(" ", "") ---> "AnaMaria"`
+        `first_name = "Ana Maria"
+        first_name.replace(" ", "") ---> "AnaMaria"`
 
-  `last_name = "De Leon"
-  last_name.replace(" ", "") ---> "DeLeon"`
+        `last_name = "De Leon"
+        last_name.replace(" ", "") ---> "DeLeon"`
 
 •`String Connecting using "+" ` - Combines the processed first name, a period, and last name into a single username.
 
@@ -114,6 +117,10 @@ Combining them, the final function for this problem is as follows:
 Thank you for reading!
 
 To see the main python program for Programming Assignment 1, click this link 
+https://github.com/MaryLorenRicohermoso/ECE2112-PA1/blob/main/Ricohermoso_Maryloren_2ECEB.ipynb and download. Open on Jupyter Notebook, then run all cells. 
+
+# README file Version History:
+August 27, 2026 - Initial README output uploaded
 
 
 
