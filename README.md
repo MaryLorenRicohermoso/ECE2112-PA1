@@ -2,7 +2,7 @@
 
 Ricohermoso, Mary Loren P. | 2ECE-B
 
-This repository contains the Programming Assignment 1 for "Advance Computer Programming" this A.Y. 2026-2027 This covers three python problems referring to Module 1- Base Computing with Python.
+This repository contains the Programming Assignment 1 for "Advance Computer Programming" this A.Y. 2026-2027. This covers three python problems referring to Module 1- Base Computing with Python.
 
 # A. World Rotation Problems
 Create a function named `rotate_word()` that accepts aa non-empty string. Move the first character of the string to the end while keeping all remaining characters in their original order. Preserve the capitalization of every character.   
@@ -16,12 +16,14 @@ Example:
       `text = "python" 
        text[0] --> "p"`
 
+
 • `text[1: ]` - utilzing slicing to obtain all characters starting from the second character and continuing to the end of the string.
 
 Example:
      
       `text = "python" 
        text[1 : ] --> "ython"` 
+
 
 The first character can then be transferred to the end of the string by connecting `text[1 : ]` with `text[0]`. Theese operations were combined to construct the function:
 
@@ -41,6 +43,7 @@ The following string methods and string connecting them weree uutilized in this 
 •`.lower()` - A string method that converts aall uppercase letters in a string to lowercase.
 
 Example:
+      
         `first_name = "Ana Maria"
         first_name.lower() ---> "ana maria"`
 
@@ -51,6 +54,7 @@ Example:
 •`.replace(" ", "")` - A string method that replaces every space with an empty string. This effectively removes all spaces from the string.
 
 Example:
+       
         `first_name = "Ana Maria"
         first_name.replace(" ", "") ---> "AnaMaria"`
 
@@ -74,7 +78,7 @@ def make_username(first_name, last_name):
 print(make_username("Ana Maria", "De Leon"))      
 ```
 
-# c. Bookend Swap Problem
+# C. Bookend Swap Problem
 
 Create a function named `swap_bookends()` that accepts a list containing at least two elements. The function exchanges the positions of the first and last elements  while preserving the original order of all elements while preserving the original order of all elements between them. The original input list must not be modified. 
 
@@ -103,7 +107,9 @@ last = 6
 The first and last elements can later be exchanged by constructing a new list using list sequence.
 
 Example:
+
             `[last] + middle + [first] --> [6, 2, 3, 4, 5, 1]`
+
 
 Combining them, the final function for this problem is as follows: 
      
