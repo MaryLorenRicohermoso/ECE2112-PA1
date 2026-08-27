@@ -75,7 +75,23 @@ print(make_username("Ana Maria", "De Leon"))
 
 Create a function named `swap_bookends()` that accepts a list containing at least two elements. The function exchanges he positions of the first and last elements  while preserving the original order of all elements while preserving the original order of all elements between them. The original input list must not be modified. 
 
-The primary Python 
+There is a required form of extended sequence unpacking that is:
+
+`first, *middle, last = item`
+
+With this Statement 
+
+•`first` - receives the first elment of the list.
+
+`*middle` - collects all elements between the first and last elements into a list.
+
+`last` - receives the last element of the list.
+
+Example: 
+
+```python
+items = [1, 2, 3, 4, 5, 6]
+first, *middle, last = items
 
 
 
