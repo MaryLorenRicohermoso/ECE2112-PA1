@@ -73,7 +73,7 @@ print(make_username("Ana Maria", "De Leon"))
 
 # c. Bookend Swap Problem
 
-Create a function named `swap_bookends()` that accepts a list containing at least two elements. The function exchanges he positions of the first and last elements  while preserving the original order of all elements while preserving the original order of all elements between them. The original input list must not be modified. 
+Create a function named `swap_bookends()` that accepts a list containing at least two elements. The function exchanges the positions of the first and last elements  while preserving the original order of all elements while preserving the original order of all elements between them. The original input list must not be modified. 
 
 There is a required form of extended sequence unpacking that is:
 
@@ -83,18 +83,37 @@ With this Statement
 
 •`first` - receives the first elment of the list.
 
-`*middle` - collects all elements between the first and last elements into a list.
+•`*middle` - collects all elements between the first and last elements into a list.
 
-`last` - receives the last element of the list.
+•`last` - receives the last element of the list.
 
 Example: 
 
 ```python
 items = [1, 2, 3, 4, 5, 6]
-first, *middle, last = items
+first, *middle, last = items --->
 
+first = 1
+middle = [2, 3, 4, 5]
+last = 6
+```
+The first and last elements can later be exchanged by constructing a new list using list sequence.
 
+Example:
+            `[last] + middle + [first] --> [6, 2, 3, 4, 5, 1]`
 
+Combining them, the final function for this problem is as follows: 
+     
+  ```python
+      def swap_bookends(items):
+            first, *middle, last = items
+            return [last] + middle + [first]
+      print(swap_bookend([1, 2, 3, 4, 5, 6]))
+   ```
+
+Thank you for reading!
+
+To see the main python program for Programming Assignment 1, click this link 
 
 
 
